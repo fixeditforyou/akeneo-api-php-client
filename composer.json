@@ -1,6 +1,6 @@
 {
-  "name": "akeneo/api-php-client",
-  "description": "Akeneo PIM client for the API",
+  "name": "fify/akeneo-api-php-client",
+  "description": "Akeneo PIM client for the API. Fork.",
   "license": "OSL-3.0",
   "minimum-stability": "stable",
   "authors": [
@@ -18,6 +18,9 @@
     "psr-4": {
       "Akeneo\\Pim\\ApiClient\\tests\\": "tests/"
     }
+  },
+  "replace": {
+    "akeneo/api-php-client": "*"
   },
   "require": {
     "php": ">=8.0",
